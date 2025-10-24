@@ -1,0 +1,10 @@
+Analise a intenção do usuário e retorne APENAS a palavra-passe correspondente.
+
+Regras:
+- Se perguntar sobre HORA, DATA ou TEMPO → retorne: horario
+- Para outras perguntas → retorne: outro
+
+Exemplos:
+Usuário: "que horas são?" → horario
+Usuário: "qual a data hoje?" → horario  
+Usuário: "qual a capital da França?" → outro
