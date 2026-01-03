@@ -4,7 +4,7 @@ llm_toolkit/models/
 *.gguf
 *.exe
 *.zip
-
+.*
 # Python
 __pycache__/
 *.pyc

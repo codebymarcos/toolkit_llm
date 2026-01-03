@@ -1,0 +1,6 @@
+# Dependências para Desenvolvimento
+pytest>=7.0.0          # Framework de testes
+pytest-cov>=4.0.0      # Cobertura de testes
+black>=23.0.0          # Formatação de código
+pylint>=2.17.0         # Linting
+mypy>=1.0.0            # Type checking

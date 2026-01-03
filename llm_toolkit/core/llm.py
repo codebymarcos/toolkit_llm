@@ -3,10 +3,10 @@
 import subprocess
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent
+BASE_DIR = Path(__file__).parent.parent
 LLAMA_EXE = BASE_DIR / "bin" / "llama-cli.exe"
-MODEL_FILE = BASE_DIR / "models" / "gemma-2-2b-it-Q4_K_M.gguf"
-PROMPT_FILE = BASE_DIR / "prompts" / "system.txt"
+MODEL_FILE = BASE_DIR / "resources" / "models" / "gemma-2-2b-it-Q4_K_M.gguf"
+PROMPT_FILE = BASE_DIR / "resources" / "prompts" / "system.txt"
 
 
 def gerar_resposta(prompt: str, temp: float = 0.7, tokens: int = 256) -> str:

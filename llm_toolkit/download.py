@@ -12,8 +12,8 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
 BIN_DIR = BASE_DIR / "bin"
-MODELS_DIR = BASE_DIR / "models"
-PROMPTS_DIR = BASE_DIR / "prompts"
+MODELS_DIR = BASE_DIR / "resources" / "models"
+PROMPTS_DIR = BASE_DIR / "resources" / "prompts"
 
 # URLs confiáveis
 MODEL_URL = "https://huggingface.co/lmstudio-community/gemma-2-2b-it-GGUF/resolve/main/gemma-2-2b-it-Q4_K_M.gguf"
