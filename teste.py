@@ -1,4 +1,4 @@
-from llm_toolkit import gerar_txt
+from llm_toolkit import gerar_resposta
 
-resposta = gerar_txt("capital da suiça?")
+resposta = gerar_resposta("capital da suiça?")
 print(resposta)

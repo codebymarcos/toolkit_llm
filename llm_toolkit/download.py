@@ -196,8 +196,8 @@ def main() -> None:
         print("✅ SETUP COMPLETO!")
         print("=" * 60)
         print("\n🎯 Como usar:")
-        print("   from llm_toolkit import gerar_txt")
-        print('   resposta = gerar_txt("Sua pergunta")')
+        print("   from llm_toolkit import gerar_resposta")
+        print('   resposta = gerar_resposta("Sua pergunta")')
         print("   print(resposta)")
     else:
         print("⚠️  SETUP INCOMPLETO")
